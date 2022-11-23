@@ -1,0 +1,40 @@
+*{
+    user-select: none;
+}
+#hrac {
+  background-color: red;
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  transition: 0,5s;
+}
+#attack {
+  position: absolute;
+  top: 250px;
+  cursor: pointer;
+}
+#enemy {
+  background-color: blue;
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  left: 400px;
+  transition: 1s;
+}
+#playerHP {
+  position: absolute;
+  top: 350px;
+  font-size: 32px;
+}
+#enemyHP {
+  position: absolute;
+  top: 350px;
+  font-size: 32px;
+  left: 300px;
+}
+#info{
+    position: absolute;
+    top: 400px;
+    font-size: 32px;
+}
